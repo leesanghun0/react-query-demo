@@ -11,7 +11,8 @@ const ReactQueryPage = () =>{
         retry:1,
         select:(data)=>{
             return data.data;
-        }
+        },
+        gcTime:5000
     })
 
     console.log("api호출을 통해 받은 데이터",data, isLoading);

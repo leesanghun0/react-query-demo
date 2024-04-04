@@ -3,7 +3,7 @@ import React from "react";
 const HomePage = () => {
     return (
         <>
-            <h1>홈페이지입니다.</h1>
+            <h1>React-Query와 일반 api 호출</h1>
         </>
     )
 }
